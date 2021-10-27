@@ -203,7 +203,7 @@ const reandar = (input) => {
   if (input) {
     $("#cards").html("");
     citiesworld.forEach((item, i) => {
-      if (item.City.toLowerCase().includes(input)) {
+      if (item.City.toLowerCase().includes(input.toLowerCase())) {
         $("#cards").append(`
       <div class='card'> <h1 id="ciety">${item.City}</h1>   
       <img src="${item.imgurl}" class='imggg' id="image-${i}" >
