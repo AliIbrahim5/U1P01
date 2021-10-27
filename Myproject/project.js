@@ -261,7 +261,7 @@ function renderItem(i) {
     });
   });
 
-  arrayimg();
+  // arrayimg();
 }
 
 const renderFav = () => {
