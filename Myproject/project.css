@@ -1,0 +1,343 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  display: table;
+  background: url("https://images.pexels.com/photos/6564823/pexels-photo-6564823.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-attachment: fixed;
+}
+
+.extraimage-in-imag{
+  align-items: center;
+  justify-content: center;
+
+  width: 38%;
+  height: 400px;
+  margin: auto;
+}
+
+.extraimage-in-imag img {
+  
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+html::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.6) 59%,
+    rgba(0, 0, 0, 0.4) 100%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  box-shadow: 0px 22px 22px 1px rgba(0, 0, 0, 0.75);
+  z-index: -2;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+#home {
+  display: inline-flex;
+  float: left;
+}
+#navbar {
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.link-style {
+  color: black;
+  background-color: white;
+  padding: 8px 16px;
+  border-radius: 500px;
+}
+.link-style:hover {
+  background-color: lightgray;
+}
+
+li {
+  display: flex;
+  display: inline;
+  padding: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+li {
+  display: flex;
+  display: inline;
+  padding: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: white;
+  transition: 200ms;
+}
+a:hover {
+  color: gray;
+  transition: 500ms;
+}
+#image-nav {
+  width: 100px;
+  height: auto;
+  height: auto;
+}
+#headr2 {
+  position: absolute;
+  color: rgb(150, 150, 150);
+  font-size: 6px;
+  margin-left: 50%;
+  top: 3rem;
+}
+
+
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+  justify-content: space-around;
+}
+#cieldimag {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 24px;
+  gap: 15px;
+}
+
+img {
+  border-radius: 20px;
+}
+
+.imgextra {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.card {
+  
+
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 30%;
+  margin: 32px 15px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: black;
+  transition: 1s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+#favorite {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  align-content: center;
+  justify-content: center;
+  background-color: black;
+  padding: 10%;
+  border-radius: 500px;
+}
+.fav {
+  padding: 10%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 10%;
+}
+
+#favorite:hover {
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  height: 85%;
+  margin-bottom: 40px;
+  border-radius: 30px;
+}
+
+.fav:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.fav img {
+  width: 100%;
+  height: 85%;
+  margin-bottom: 40px;
+  border-radius: 30p;
+}
+
+#fovarit {
+  display: flex;
+  display: inline;
+  padding: 20px;
+  float: right;
+}
+
+video {
+  width: 40%;
+  height: auto;
+}
+
+#footer {
+  width: 100%;
+  display: table-row;
+  height: 10px;
+  background-color: rgba(0, 0, 0, 0.76);
+  margin: 0;
+}
+
+#footer h2 {
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  color: lightgray;
+  font-size: 18px;
+}
+
+
+
+.imggg {
+  display: flex;
+  flex-wrap: wrap;
+  height: 150px;
+
+  margin: auto;
+}
+
+.Childimg {
+  width: 150px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+}
+
+#image p {
+  color: rgb(169, 240, 240);
+  text-align: justify;
+  display: inline-block;
+  padding: 20px 24px;
+}
+#image p::first-letter {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.like {
+  background-color: white;
+  color: rgb(65, 65, 65);
+  font-size: 14px;
+  padding: 5px 0;
+  border-style: none;
+  border-radius: 5px;
+  transition: 300ms;
+}
+.like:hover {
+  background-color: lightsteelblue;
+  cursor: pointer;
+}
+
+#image {
+  margin-top: 5%;
+}
+.imgextra :hover{
+cursor: pointer;
+
+}
+.search-bar {
+  display: flex;
+  padding: 10px;
+  align-content: stretch;
+  justify-content: center;
+}
+.search-text {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  color: gray;
+  font-size: 14px;
+  background-color: white;
+  border-radius: 10px 0 0 10px;
+}
+#search-input {
+  border-style: none;
+  border-radius: 0 10px 10px 0;
+  width: 50%;
+  font-size: 16px;
+  color: gray;
+  text-align: center;
+  outline: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+
+  #cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+  
+    justify-content: space-around;
+  }
+  
+.card {
+  
+
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 80%;
+  margin: 32px 15px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: black;
+  transition: 1s;
+}
+
+
+
+
+  
+}
